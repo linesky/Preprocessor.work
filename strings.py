@@ -10,8 +10,12 @@ def preprocessor(s:str):
             print("string is not close")
         else:
             for n in range(1,clen,2):
-                print("var"+str(count)+'="'+c[n]+'"')
+                v:str="var"+str(count)
+                print(v+'="'+c[n]+'"')
+                vv='"'+c[n]+'"'
+                s=s.replace(vv,v)
                 count+=1
+    print(s)
 
 pre='"hello"+"world"+"hi"+"...."'
 print("\x1bc\x1b[44;37mprecompiler.....")
