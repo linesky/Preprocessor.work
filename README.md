@@ -1,3 +1,3 @@
-# Preprocessor.work
-Learn to build preprocessors of functions
-learn to build a preprocessor
+# freebasic.index.mz
+
+mz compiler of index draw in freebasic into blue operation system
